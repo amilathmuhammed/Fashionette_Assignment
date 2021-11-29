@@ -16,7 +16,7 @@ Scenario 03 - Apply a voucher.
 ##Running the test
 ###In order to run the tests, please follow the steps below:
 1. Import the project in Intellij
-2. Extract the zipped file fashionette.zip into a file location or checkout and pull from git using link
+2. Extract the zipped file fashionette.zip into a file location or checkout from git using link https://github.com/amilathmuhammed/Fashionette_Assignment.git
 3. To import the project click on file -> open -> choose the extracted file
 4. Wait for the project to import
 5. Run the code using either by right click on the base java classes and click on Run or by right click on the  testng.xml and click on Run testng.xml
