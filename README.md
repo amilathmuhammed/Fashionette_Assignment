@@ -24,6 +24,8 @@ Scenario 03 - Apply a voucher.
     * mvn clean
     * mvn compile
     * mvn test
+    
+    
 ##Test Cases :
 
 Test case details are provided in QA Assignment_fashionette.pdf (attached with mail)
