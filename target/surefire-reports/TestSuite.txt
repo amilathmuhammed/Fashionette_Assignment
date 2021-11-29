@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 94.985 s <<< FAILURE! - in TestSuite
+com.fashionette.tests.AddToCartTest.verifyProductAddedToCart  Time elapsed: 28.308 s  <<< FAILURE!
+java.lang.AssertionError: Item was not added to cart expected [BEREITS IM WARENKORB] but found [IN DEN WARENKORB]
+	at com.fashionette.tests.AddToCartTest.verifyProductAddedToCart(AddToCartTest.java:56)
+
+com.fashionette.tests.ApplyVoucherTest.verifyVoucherApplied  Time elapsed: 23.636 s  <<< FAILURE!
+java.lang.AssertionError: Coupon code did not applied expected [true] but found [false]
+	at com.fashionette.tests.ApplyVoucherTest.verifyVoucherApplied(ApplyVoucherTest.java:41)
+
+com.fashionette.tests.ModifyUserDataTest.verifyUserDataGetModified  Time elapsed: 13.126 s  <<< FAILURE!
+java.lang.AssertionError: user data is not modified  expected [true] but found [false]
+	at com.fashionette.tests.ModifyUserDataTest.verifyUserDataGetModified(ModifyUserDataTest.java:40)
+

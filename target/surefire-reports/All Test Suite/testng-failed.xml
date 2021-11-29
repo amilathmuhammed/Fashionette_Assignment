@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.fashionette.tests.Listeners"/>
+  </listeners>
+  <test name="fashionette Test cases(failed)">
+    <classes>
+      <class name="com.fashionette.tests.AddToCartTest">
+        <methods>
+          <include name="verifyProductAddedToCart"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.fashionette.tests.AddToCartTest -->
+      <class name="com.fashionette.tests.ApplyVoucherTest">
+        <methods>
+          <include name="verifyVoucherApplied"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.fashionette.tests.ApplyVoucherTest -->
+      <class name="com.fashionette.tests.ModifyUserDataTest">
+        <methods>
+          <include name="verifyUserDataGetModified"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.fashionette.tests.ModifyUserDataTest -->
+    </classes>
+  </test> <!-- fashionette Test cases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
